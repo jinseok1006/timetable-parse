@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root xmlns="http://www.nexacro.com/platform/dataset" ver="5000">
+	<Parameters>
+		<Parameter id="ErrorCode" type="int">0</Parameter>
+		<Parameter id="ErrorMsg" type="string">SUCCESS</Parameter>
+	</Parameters>
+	<Dataset id="GRD_COUR001">
+		<ColumnInfo>
+			<Column id="CPTNFG" type="string" size="10"/>
+			<Column id="CPTNFGNM" type="string" size="200"/>
+			<Column id="SBJTNM" type="string" size="203"/>
+			<Column id="CLSS" type="int" size="5"/>
+			<Column id="PNT" type="bigdecimal" size="4"/>
+			<Column id="EDUSTMFG" type="string" size="10"/>
+			<Column id="TM" type="bigdecimal" size="39"/>
+			<Column id="RPSTPROFNM" type="string" size="50"/>
+			<Column id="OPENLECTFG" type="string" size="10"/>
+			<Column id="OPENLECTFGNM" type="string" size="32767"/>
+			<Column id="DAYTMCTNT" type="string" size="400"/>
+			<Column id="VILROOMNOCTNT" type="string" size="600"/>
+			<Column id="YY" type="string" size="4"/>
+			<Column id="SHTM" type="string" size="10"/>
+			<Column id="SBJTCD" type="string" size="10"/>
+			<Column id="VLDFG" type="string" size="10"/>
+			<Column id="VLDFGNM" type="string" size="32767"/>
+			<Column id="SUSTCDNM" type="string" size="600"/>
+			<Column id="PUBCYN" type="string" size="3"/>
+			<Column id="NOPUBCRESN" type="string" size="20"/>
+			<Column id="NOPUBCRESNNM" type="string" size="32767"/>
+			<Column id="VLDSBJTDGNFG" type="string" size="10"/>
+			<Column id="PGMCD" type="string" size="10"/>
+			<Column id="LESSTMFGNM" type="string" size="200"/>
+			<Column id="TLSNOBJFG" type="string" size="200"/>
+			<Column id="LTLANGFGNM" type="string" size="200"/>
+			<Column id="ALLWRCNT" type="int" size="5"/>
+			<Column id="TLSNRCNT" type="int" size="5"/>
+			<Column id="LMTRCNT" type="int" size="5"/>
+			<Column id="FILENO" type="bigdecimal" size="21"/>
+			<Column id="SUBPLANYN" type="string" size="1"/>
+			<Column id="SCORTRETFGNM" type="string" size="200"/>
+			<Column id="FLDFG" type="string" size="10"/>
+			<Column id="FLDFGNM" type="string" size="200"/>
+			<Column id="FLDDETAFG" type="string" size="10"/>
+			<Column id="FLDDETAFGNM" type="string" size="200"/>
+			<Column id="ONOFFFGNM" type="string" size="200"/>
+			<Column id="CLSSOPRTDRCT" type="string" size="2000"/>
+			<Column id="ACDMNUM" type="string" size="8"/>
+		</ColumnInfo>
+		<Rows>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">1</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">장미희</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">화&#32;1-A,화&#32;1-B,화&#32;2-A,화&#32;2-B,목&#32;3-A,목&#32;3-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000002</Col>
+				<Col id="VLDFGNM">공학</Col>
+				<Col id="SUSTCDNM">기계설계(기계설계)&#32;1,기계설계(나노바이오)&#32;1</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="PGMCD">ABEEK00002</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">57</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">2</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">장미희</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">화&#32;3-A,화&#32;3-B,목&#32;1-A,목&#32;1-B,목&#32;2-A,목&#32;2-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000002</Col>
+				<Col id="VLDFGNM">공학</Col>
+				<Col id="SUSTCDNM">기계설계(기계설계)&#32;1,기계설계(나노바이오)&#32;1</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="PGMCD">ABEEK00002</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">57</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">3</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">안동언</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">화&#32;8-A,화&#32;8-B,목&#32;6-A,목&#32;6-B,목&#32;7-A,목&#32;7-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000002</Col>
+				<Col id="VLDFGNM">공학</Col>
+				<Col id="SUSTCDNM">IT지능정보공학과&#32;1</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="PGMCD">ABEEK00020</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">58</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">4</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">박진희</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">월&#32;1-A,월&#32;1-B,월&#32;2-A,월&#32;2-B,수&#32;1-A,수&#32;1-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">59</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">5</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">이성현</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">수&#32;2-A,수&#32;2-B,금&#32;1-A,금&#32;1-B,금&#32;2-A,금&#32;2-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">54</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">6</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">이성현</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">수&#32;4-A,수&#32;4-B,금&#32;3-A,금&#32;3-B,금&#32;4-A,금&#32;4-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">57</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">7</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">이성현</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">수&#32;7-A,수&#32;7-B,금&#32;6-A,금&#32;6-B,금&#32;7-A,금&#32;7-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">59</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">8</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">박진희</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">수&#32;9-A,수&#32;9-B,금&#32;8-A,금&#32;8-B,금&#32;9-A,금&#32;9-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">58</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">9</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">장미희</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">화&#32;6-A,화&#32;6-B,화&#32;7-A,화&#32;7-B,목&#32;8-A,목&#32;8-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">58</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">10</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">박진희</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">월&#32;6-A,월&#32;6-B,월&#32;7-A,월&#32;7-B,수&#32;6-A,수&#32;6-B</Col>
+				<Col id="VILROOMNOCTNT">전주:자연과학대학3호관&#32;113&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="PUBCYN">공개</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">59</Col>
+				<Col id="TLSNRCNT">59</Col>
+				<Col id="LMTRCNT">59</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+			<Row>
+				<Col id="CPTNFG">U220100001</Col>
+				<Col id="CPTNFGNM">교양</Col>
+				<Col id="SBJTNM">컴퓨팅사고와인간</Col>
+				<Col id="CLSS">11</Col>
+				<Col id="PNT">3</Col>
+				<Col id="EDUSTMFG">U220200001</Col>
+				<Col id="TM">3</Col>
+				<Col id="RPSTPROFNM">장영원</Col>
+				<Col id="OPENLECTFG">U230200001</Col>
+				<Col id="OPENLECTFGNM">일반</Col>
+				<Col id="DAYTMCTNT">금&#32;11-A,금&#32;11-B,금&#32;12-A,금&#32;12-B,금&#32;13-A,금&#32;13-B</Col>
+				<Col id="VILROOMNOCTNT">:&#32;&#32;</Col>
+				<Col id="YY">2022</Col>
+				<Col id="SHTM">U211600010</Col>
+				<Col id="SBJTCD">0000126187</Col>
+				<Col id="VLDFG">U221000001</Col>
+				<Col id="VLDFGNM">일반</Col>
+				<Col id="SUSTCDNM">농생명과학과&#32;4</Col>
+				<Col id="PUBCYN">비공개</Col>
+				<Col id="NOPUBCRESN">U233800001</Col>
+				<Col id="NOPUBCRESNNM">학과요청</Col>
+				<Col id="LESSTMFGNM">50분</Col>
+				<Col id="TLSNOBJFG">전체(학부)</Col>
+				<Col id="LTLANGFGNM">한국어</Col>
+				<Col id="ALLWRCNT">60</Col>
+				<Col id="TLSNRCNT">19</Col>
+				<Col id="LMTRCNT">60</Col>
+				<Col id="SUBPLANYN">Y</Col>
+				<Col id="SCORTRETFGNM">상대평가Ⅰ</Col>
+				<Col id="FLDFG">U221100031</Col>
+				<Col id="FLDFGNM">기초교양</Col>
+				<Col id="FLDDETAFG">U221400104</Col>
+				<Col id="FLDDETAFGNM">사고력</Col>
+				<Col id="ONOFFFGNM">대면중심수업(70%미만&#32;온라인)</Col>
+			</Row>
+		</Rows>
+	</Dataset>
+</Root>
+
+
