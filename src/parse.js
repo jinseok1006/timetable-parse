@@ -24,5 +24,5 @@ async function parse(src) {
   fs.writeFile(writeSrc, JSON.stringify(data, null, 4));
 }
 
-const xmlSrc = path.resolve(__dirname, './assets/lect2');
+const xmlSrc = path.resolve(__dirname, './assets/lect');
 parse(xmlSrc);
